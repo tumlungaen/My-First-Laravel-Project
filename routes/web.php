@@ -21,7 +21,6 @@ Route::get('/', function () {
         'exp' => 666,
         'try_this' => '<br /><b>This</b> is a <u>book</u>.'
     ] ) ;
-
 });
 
 // //----| TEST Class & Route
