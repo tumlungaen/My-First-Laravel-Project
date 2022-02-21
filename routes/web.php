@@ -15,9 +15,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    // return view('welcome');
-    echo '123<br />' ;
-    return view( 'helloworld' ) ;
+    return view( 'welcome', [
+        'name' => 'Kittinan Noimanee',
+        'phone' => '0817846230',
+        'exp' => 987,
+        'try_this' => '<br /><b>This</b> is a <u>book</u>.'
+    ] ) ;
+
 });
 
 // //----| TEST Class & Route
