@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // return view('welcome');
+    echo '123<br />' ;
+    return view( 'helloworld' ) ;
 });
+
+// class Service {
+//     //
+// }
+// Route::get( '/', function( Service $service ) {
+//     echo '555' ;
+// } ) ;
