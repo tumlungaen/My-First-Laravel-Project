@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view( 'welcome', [
         'name' => 'Kittinan Noimanee',
         'phone' => '0817846230',
-        'exp' => 987,
+        'exp' => 666,
         'try_this' => '<br /><b>This</b> is a <u>book</u>.'
     ] ) ;
 
