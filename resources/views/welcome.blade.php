@@ -59,7 +59,6 @@
                                     <p>{{$try_this}}</p>
                                     <p>{{ $exp + $exp }}</p>
                                     <p>{{ $exp }}</p>
-                                    <p>{{ $test->i }}</p>
                                 </div>
                             </div>
                         </div>
