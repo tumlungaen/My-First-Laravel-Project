@@ -26,11 +26,3 @@ Route::get('/', function () {
         'my_arr' => json_encode( [ 4, 1, 8, 4, 3, 4, 5, 9 ] ) ,
     ] ) ;
 });
-
-// //----| TEST Class & Route
-// class Service {
-//     //
-// }
-// Route::get( '/', function( Service $service ) {
-//     echo '555' ;
-// } ) ;
