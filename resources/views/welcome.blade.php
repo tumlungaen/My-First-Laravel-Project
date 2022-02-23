@@ -19,6 +19,11 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+
+        <script>
+            var arr = {{ Js::from( $arr ) }} ;
+        </script>
+
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
@@ -60,6 +65,7 @@
                                     <p>{{ $exp + $exp }}</p>
                                     <p>{{ $exp }}</p>
                                     <p> {{ Js::from( $my_arr ) }} </p>
+                                    <p> {{ Js::from( $arr ) }} </p>
                                 </div>
                             </div>
                         </div>
@@ -77,6 +83,7 @@
                                     Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
                                     <p>Hello, @{{ $some_var }}</p>
                                     <p>Hi, {{ $some_var }}</p>
+                                    <p>55</p>
                                 </div>
                             </div>
                         </div>
