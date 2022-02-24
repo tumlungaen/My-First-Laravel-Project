@@ -25,5 +25,6 @@ Route::get('/', function () {
         'some_var' => 'Tum' ,
         'my_arr' => json_encode( [ 4, 1, 8, 4, 3, 4, 5, 9 ] ) ,
         'arr' => json_encode( [ 3, 2, 3, 4 ] ) ,
+        'flag' => 2 ,
     ] ) ;
 });

@@ -83,7 +83,11 @@
                                     Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
                                     <p>Hello, @{{ $some_var }}</p>
                                     <p>Hi, {{ $some_var }}</p>
-                                    <p>55</p>
+                                    @if( $flag == 1 )
+                                        <p>display number 1</p>
+                                    @else
+                                        <p>display other number</p>
+                                    @endif
                                 </div>
                             </div>
                         </div>
