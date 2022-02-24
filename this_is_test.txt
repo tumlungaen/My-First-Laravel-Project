@@ -1,2 +1,3 @@
 Hi, this is test in Ubuntu.
-666
+
+OK, test
