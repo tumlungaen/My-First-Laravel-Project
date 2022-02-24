@@ -1,3 +1,2 @@
 Hi, this is test in Ubuntu.
-
-OK, test
+and this is test in windows.
